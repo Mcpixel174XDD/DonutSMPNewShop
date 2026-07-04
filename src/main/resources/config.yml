@@ -1,0 +1,210 @@
+# SimpleShop configuration
+# ---------------------------------------------------------
+# Add/remove items freely. "material" must be a valid Bukkit
+# Material enum name (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
+# buy-price  = cost for a player to buy 'amount' of this item (set to -1 to disable buying)
+# sell-price = money a player gets for selling 'amount' of this item (set to -1 to disable selling)
+# amount     = how many items are given/taken per transaction
+# ---------------------------------------------------------
+
+gui:
+  title: "&8&lShop"
+  rows: 6                 # total rows in the GUI (6 = 54 slots). Bottom row is reserved for nav buttons.
+  items-per-page: 45
+
+messages:
+  no-permission: "&cYou do not have permission to do that."
+  not-enough-money: "&cYou don't have enough money for that."
+  purchase-success: "&aBought &f{amount}x {item} &afor &f${price}&a."
+  sell-success: "&aSold &f{amount}x {item} &afor &f${price}&a."
+  inventory-full: "&cYour inventory is full!"
+  no-items-to-sell: "&cYou don't have any {item} to sell."
+  reload-success: "&aSimpleShop config reloaded."
+  vault-missing: "&cVault economy plugin not found! Disabling shop."
+
+items:
+  - material: COBBLESTONE_STAIRS
+    name: "&fCobblestone Stairs"
+    buy-price: 4
+    sell-price: 1
+    amount: 1
+
+  - material: COBBLESTONE_WALL
+    name: "&fCobblestone Wall"
+    buy-price: 4
+    sell-price: 1
+    amount: 1
+
+  - material: COBWEB
+    name: "&fCobweb"
+    buy-price: 8
+    sell-price: 2
+    amount: 1
+
+  - material: COCOA_BEANS
+    name: "&fCocoa Beans"
+    buy-price: 6
+    sell-price: 2
+    amount: 1
+
+  - material: COD
+    name: "&fRaw Cod"
+    buy-price: 5
+    sell-price: 1
+    amount: 1
+
+  - material: COD_BUCKET
+    name: "&fBucket of Cod"
+    buy-price: 15
+    sell-price: -1
+    amount: 1
+
+  - material: COMPARATOR
+    name: "&fRedstone Comparator"
+    buy-price: 20
+    sell-price: 5
+    amount: 1
+
+  - material: COMPASS
+    name: "&fCompass"
+    buy-price: 25
+    sell-price: 6
+    amount: 1
+
+  - material: COMPOSTER
+    name: "&fComposter"
+    buy-price: 30
+    sell-price: -1
+    amount: 1
+
+  - material: CONDUIT
+    name: "&fConduit"
+    buy-price: 500
+    sell-price: -1
+    amount: 1
+
+  - material: COOKED_BEEF
+    name: "&fSteak"
+    buy-price: 12
+    sell-price: 3
+    amount: 1
+
+  - material: COOKED_CHICKEN
+    name: "&fCooked Chicken"
+    buy-price: 10
+    sell-price: 3
+    amount: 1
+
+  - material: COOKED_COD
+    name: "&fCooked Cod"
+    buy-price: 10
+    sell-price: 3
+    amount: 1
+
+  - material: COOKED_MUTTON
+    name: "&fCooked Mutton"
+    buy-price: 10
+    sell-price: 3
+    amount: 1
+
+  - material: COOKED_PORKCHOP
+    name: "&fCooked Porkchop"
+    buy-price: 10
+    sell-price: 3
+    amount: 1
+
+  - material: COOKED_RABBIT
+    name: "&fCooked Rabbit"
+    buy-price: 10
+    sell-price: 3
+    amount: 1
+
+  - material: COOKED_SALMON
+    name: "&fCooked Salmon"
+    buy-price: 10
+    sell-price: 3
+    amount: 1
+
+  - material: COOKIE
+    name: "&fCookie"
+    buy-price: 3
+    sell-price: -1
+    amount: 1
+
+  - material: COPPER_AXE
+    name: "&fCopper Axe"
+    buy-price: 150
+    sell-price: 40
+    amount: 1
+
+  - material: COPPER_INGOT
+    name: "&fCopper Ingot"
+    buy-price: 18
+    sell-price: 6
+    amount: 1
+
+  - material: COPPER_BLOCK
+    name: "&fBlock of Copper"
+    buy-price: 150
+    sell-price: 50
+    amount: 1
+
+  - material: COPPER_BOOTS
+    name: "&fCopper Boots"
+    buy-price: 120
+    sell-price: 30
+    amount: 1
+
+  - material: COPPER_BULB
+    name: "&fCopper Bulb"
+    buy-price: 60
+    sell-price: 15
+    amount: 1
+
+  - material: COPPER_CHESTPLATE
+    name: "&fCopper Chestplate"
+    buy-price: 220
+    sell-price: 55
+    amount: 1
+
+  - material: COPPER_DOOR
+    name: "&fCopper Door"
+    buy-price: 70
+    sell-price: 18
+    amount: 1
+
+  - material: COPPER_GRATE
+    name: "&fCopper Grate"
+    buy-price: 60
+    sell-price: 15
+    amount: 1
+
+  - material: COPPER_HELMET
+    name: "&fCopper Helmet"
+    buy-price: 130
+    sell-price: 32
+    amount: 1
+
+  - material: COPPER_HOE
+    name: "&fCopper Hoe"
+    buy-price: 100
+    sell-price: 25
+    amount: 1
+
+  - material: COPPER_INGOT
+    name: "&fCopper Ingot"
+    buy-price: 18
+    sell-price: 6
+    amount: 1
+
+  - material: COPPER_LEGGINGS
+    name: "&fCopper Leggings"
+    buy-price: 200
+    sell-price: 50
+    amount: 1
+
+  - material: COPPER_LANTERN
+    name: "&fCopper Lantern"
+    buy-price: 65
+    sell-price: 16
+    amount: 1

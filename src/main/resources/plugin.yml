@@ -1,0 +1,27 @@
+name: SimpleShop
+version: '1.0.0'
+main: com.shop.simpleshop.SimpleShop
+api-version: '1.20'
+author: You
+description: A configurable GUI shop plugin using Vault economy.
+depend: [Vault]
+
+commands:
+  shop:
+    description: Opens the shop GUI
+    usage: /shop
+    permission: simpleshop.use
+    permission-message: You do not have permission to use the shop.
+  shopadmin:
+    description: Admin commands for SimpleShop
+    usage: /shopadmin <reload>
+    permission: simpleshop.admin
+    permission-message: You do not have permission to manage the shop.
+
+permissions:
+  simpleshop.use:
+    description: Allows use of /shop
+    default: true
+  simpleshop.admin:
+    description: Allows use of /shopadmin (reload config etc.)
+    default: op
